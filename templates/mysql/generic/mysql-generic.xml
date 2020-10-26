@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<formatVersion>4</formatVersion>
+	<server>
+		<version>3.5.136</version>
+		<buildTag>3.5-136-g37db5ea3c4</buildTag>
+		<operatingSystem>Linux 4.19.0-12-amd64</operatingSystem>
+	</server>
+	<description></description>
+	<events>
+	</events>
+	<templates>
+		<template id="185">
+			<guid>68d434d7-9972-42f3-80ab-f5325b94b80c</guid>
+			<name>Generic MySQL data</name>
+			<flags>0</flags>
+			<comments></comments>
+			<path>
+				<element id="1">Applications</element>
+				<element id="2">Generic</element>
+				<element id="3">MySQL</element>
+			</path>
+			<dataCollection>
+				<dci id="1269">
+					<guid>d46be2d1-3abc-43fe-ad0c-532955f48174</guid>
+					<name>MySQL.Connections.Aborted({instance})</name>
+					<description>MySQL: aborted connections on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1270">
+					<guid>e8bcf980-959f-4c53-ae42-71a07fddb894</guid>
+					<name>MySQL.Connections.BytesReceived({instance})</name>
+					<description>MySQL: bytes received from all clients on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1271">
+					<guid>43b22aa1-f182-44e9-8412-eb65569a0537</guid>
+					<name>MySQL.Connections.BytesSent({instance})</name>
+					<description>MySQL: bytes sent to all clients on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1272">
+					<guid>fbd20e3f-477d-44e9-b8a4-4104f686c259</guid>
+					<name>MySQL.Connections.Current({instance})</name>
+					<description>MySQL: number of active connections on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1273">
+					<guid>828afc5c-0042-4e17-8405-0b1cccf283af</guid>
+					<name>MySQL.Connections.CurrentPerc({instance})</name>
+					<description>MySQL: connection pool usage on {instance} (%)</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<thresholds>
+						<threshold id="1">
+							<function>0</function>
+							<condition>3</condition>
+							<value>90</value>
+							<activationEvent>SYS_THRESHOLD_REACHED</activationEvent>
+							<deactivationEvent>SYS_THRESHOLD_REARMED</deactivationEvent>
+							<sampleCount>2</sampleCount>
+							<repeatInterval>-1</repeatInterval>
+							<script></script>
+						</threshold>
+					</thresholds>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1274">
+					<guid>737b43d1-4c5b-4c16-b16b-6014e506aea5</guid>
+					<name>MySQL.Connections.Failed({instance})</name>
+					<description>MySQL: failed connection attempts on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1275">
+					<guid>d62e95c9-6589-4fe4-a740-468171f0a2af</guid>
+					<name>MySQL.Connections.Limit({instance})</name>
+					<description>MySQL: maximum possible number of simultaneous connections on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1276">
+					<guid>2c350381-e81f-4f5a-85c9-de31edc2e980</guid>
+					<name>MySQL.Connections.Max({instance})</name>
+					<description>MySQL: maximum number of simultaneous connections on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1277">
+					<guid>9f601f25-f7db-44b3-a139-e4f7317d1d92</guid>
+					<name>MySQL.Connections.MaxPerc({instance})</name>
+					<description>MySQL: maximum connection pool usage on {instance}  (%)</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<thresholds>
+						<threshold id="1">
+							<function>0</function>
+							<condition>3</condition>
+							<value>90</value>
+							<activationEvent>SYS_THRESHOLD_REACHED</activationEvent>
+							<deactivationEvent>SYS_THRESHOLD_REARMED</deactivationEvent>
+							<sampleCount>2</sampleCount>
+							<repeatInterval>-1</repeatInterval>
+							<script></script>
+						</threshold>
+					</thresholds>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1278">
+					<guid>30b8bce8-3c61-4dc2-81ba-3c46ef7f552a</guid>
+					<name>MySQL.Connections.Total({instance})</name>
+					<description>MySQL: cumulative connection count on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1424">
+					<guid>d4f219f3-0a75-463e-9213-774bf408f9be</guid>
+					<name>MySQL.IsReachable({instance})</name>
+					<description>MySQL: is database reachable on {instance}</description>
+					<dataType>4</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3916">
+					<guid>4b278edf-a1e3-422d-bca9-5ace00c45882</guid>
+					<name>MySQL.OpenFiles.Current({instance})</name>
+					<description>MySQL: open files on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3917">
+					<guid>01ba228c-1dd2-410f-9cb4-b7db6089fcb0</guid>
+					<name>MySQL.OpenFiles.CurrentPerc({instance})</name>
+					<description>MySQL: open file pool usage on {instance} (%)</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<thresholds>
+						<threshold id="1">
+							<function>0</function>
+							<condition>3</condition>
+							<value>90</value>
+							<activationEvent>SYS_THRESHOLD_REACHED</activationEvent>
+							<deactivationEvent>SYS_THRESHOLD_REARMED</deactivationEvent>
+							<sampleCount>2</sampleCount>
+							<repeatInterval>-1</repeatInterval>
+							<script></script>
+						</threshold>
+					</thresholds>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3918">
+					<guid>31608e14-5072-40dd-8e23-87a8a33eaaaf</guid>
+					<name>MySQL.OpenFiles.Limit({instance})</name>
+					<description>MySQL: maximum possible number of open files on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3928">
+					<guid>90c068b6-b417-4dae-94e1-f3ff3de7899d</guid>
+					<name>MySQL.Queries.Cache.HitRatio({instance})</name>
+					<description>MySQL: query cache hit ratio on {instance} (%)</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3929">
+					<guid>f0195fb0-ac38-4373-acac-4ac60f414889</guid>
+					<name>MySQL.Queries.Cache.Hits({instance})</name>
+					<description>MySQL: query cache hits on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3930">
+					<guid>00b4b595-d94b-4592-a7d9-9b52197b1aef</guid>
+					<name>MySQL.Queries.Cache.Size({instance})</name>
+					<description>MySQL: query cache size on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3931">
+					<guid>b2d2cc71-5ac2-4ac0-b441-50d6d6ea99c0</guid>
+					<name>MySQL.Queries.ClientsTotal({instance})</name>
+					<description>MySQL: number of queries executed by clients on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3932">
+					<guid>7a70170f-61da-482c-80de-91aabf247e3a</guid>
+					<name>MySQL.Queries.Delete({instance})</name>
+					<description>MySQL: number of DELETE queries on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3933">
+					<guid>f8eee657-4925-49af-aae3-4ff0337bbff6</guid>
+					<name>MySQL.Queries.DeleteMultiTable({instance})</name>
+					<description>MySQL: number of multitable DELETE queries on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3934">
+					<guid>c1326350-972c-4745-88ed-6a55d37bf70f</guid>
+					<name>MySQL.Queries.Insert({instance})</name>
+					<description>MySQL: number of INSERT queries on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3935">
+					<guid>a6ed614d-bafa-4124-bae4-824b3a044100</guid>
+					<name>MySQL.Queries.Select({instance})</name>
+					<description>MySQL: number of SELECT queries on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3936">
+					<guid>2fed85ed-5b64-4233-ad2a-8b531d01ac8d</guid>
+					<name>MySQL.Queries.Slow({instance})</name>
+					<description>MySQL: slow queries on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3937">
+					<guid>b7b957a8-282e-49ff-9757-046a94ea2dee</guid>
+					<name>MySQL.Queries.SlowPerc({instance})</name>
+					<description>MySQL: slow queries on {instance} (%)</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3938">
+					<guid>97e0c348-be2f-4823-a9cd-9b9edfce3c7b</guid>
+					<name>MySQL.Queries.Total({instance})</name>
+					<description>MySQL: number of queries on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3939">
+					<guid>80dd5820-f602-4e7c-bb67-5c3b7153ac2f</guid>
+					<name>MySQL.Queries.Update({instance})</name>
+					<description>MySQL: number of UPDATE queries on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3940">
+					<guid>2cc6e97d-e658-4af7-b6b1-ca58a53d2938</guid>
+					<name>MySQL.Queries.UpdateMultiTable({instance})</name>
+					<description>MySQL: number of multitable UPDATE queries on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3980">
+					<guid>c6c2d343-1191-4dfe-8a49-b464b5694a33</guid>
+					<name>MySQL.Server.Uptime({instance})</name>
+					<description>MySQL: server uptime on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3981">
+					<guid>c93f1794-b400-4b09-8afa-c35629c26b53</guid>
+					<name>MySQL.Sort.MergePasses({instance})</name>
+					<description>MySQL: sort merge passes on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3982">
+					<guid>92a6570f-2efe-4e33-957e-6811ab7e1596</guid>
+					<name>MySQL.Sort.MergeRatio({instance})</name>
+					<description>MySQL: sort merge ratio on {instance} (%)</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3983">
+					<guid>68557ce6-5a38-4bcd-aefa-43de5c5022b2</guid>
+					<name>MySQL.Sort.Range({instance})</name>
+					<description>MySQL: number of sorts using ranges on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="3984">
+					<guid>a8150474-9f7f-42ca-a897-42a6b193e7e2</guid>
+					<name>MySQL.Sort.Scan({instance})</name>
+					<description>MySQL: number of sorts using table scans on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="4000">
+					<guid>761a4226-10b6-46b6-8a4b-2aec3179c98c</guid>
+					<name>MySQL.Tables.Fragmented({instance})</name>
+					<description>MySQL: fragmented tables on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="4001">
+					<guid>1e5c61a9-2e9c-44ad-b0c2-92dcf251fe07</guid>
+					<name>MySQL.Tables.Open({instance})</name>
+					<description>MySQL: open tables on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="4002">
+					<guid>cbde9bd0-6b59-4dbb-a295-f078a186ae00</guid>
+					<name>MySQL.Tables.Opened({instance})</name>
+					<description>MySQL: tables that have been opened on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="4003">
+					<guid>464ae0ad-5c6e-431a-bf9d-67ea5ed94a35</guid>
+					<name>MySQL.Tables.OpenLimit({instance})</name>
+					<description>MySQL: maximum possible number of open tables on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="4004">
+					<guid>7334674e-b824-4c54-aa82-9cf8f9d5982c</guid>
+					<name>MySQL.Tables.OpenPerc({instance})</name>
+					<description>MySQL: table open cache usage on {instance} (%)</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="4005">
+					<guid>c59d17f0-392b-4482-8fae-2695ff4be78e</guid>
+					<name>MySQL.TempTables.Created({instance})</name>
+					<description>MySQL: temporary tables created on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="4006">
+					<guid>20ccb507-cd74-45fe-97e9-d6fde776ecf6</guid>
+					<name>MySQL.TempTables.CreatedOnDisk({instance})</name>
+					<description>MySQL: temporary tables created on disk on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="4007">
+					<guid>5c9a5f29-7163-41fc-91b3-d913653cd2cd</guid>
+					<name>MySQL.TempTables.CreatedOnDiskPerc({instance})</name>
+					<description>MySQL: temporary tables created on disk on {instance} (%)</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<thresholds>
+						<threshold id="1">
+							<function>0</function>
+							<condition>3</condition>
+							<value>50</value>
+							<activationEvent>SYS_THRESHOLD_REACHED</activationEvent>
+							<deactivationEvent>SYS_THRESHOLD_REARMED</deactivationEvent>
+							<sampleCount>2</sampleCount>
+							<repeatInterval>-1</repeatInterval>
+							<script></script>
+						</threshold>
+					</thresholds>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="4032">
+					<guid>c3fcb217-94ea-4a4a-a1bb-1df6ed249c86</guid>
+					<name>MySQL.Threads.CacheHitRatio({instance})</name>
+					<description>MySQL: thread cache hit ratio on {instance} (%)</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="4033">
+					<guid>1db8a5d5-987d-4167-9c67-e12b842877cd</guid>
+					<name>MySQL.Threads.CacheSize({instance})</name>
+					<description>MySQL: thread cache size on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="4034">
+					<guid>e8198910-61cf-41bc-b552-8569a001e4b9</guid>
+					<name>MySQL.Threads.Created({instance})</name>
+					<description>MySQL: threads created on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="4035">
+					<guid>0167881d-a669-4e7b-a1d8-2b4ec253f422</guid>
+					<name>MySQL.Threads.Running({instance})</name>
+					<description>MySQL: threads running on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+			</dataCollection>
+			<agentPolicies>
+			</agentPolicies>
+			<filter autoBind="0" autoUnbind="0"></filter>
+		</template>
+	</templates>
+	<traps>
+	</traps>
+	<rules>
+	</rules>
+	<scripts>
+	</scripts>
+	<objectTools>
+	</objectTools>
+	<dciSummaryTables>
+	</dciSummaryTables>
+	<actions>
+	</actions>
+	<webServiceDefinitions>
+	</webServiceDefinitions>
+</configuration>

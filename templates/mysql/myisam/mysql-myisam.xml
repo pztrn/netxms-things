@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<formatVersion>4</formatVersion>
+	<server>
+		<version>3.5.136</version>
+		<buildTag>3.5-136-g37db5ea3c4</buildTag>
+		<operatingSystem>Linux 4.19.0-12-amd64</operatingSystem>
+	</server>
+	<description></description>
+	<events>
+	</events>
+	<templates>
+		<template id="190">
+			<guid>37d5082c-1dbb-4189-8881-f3dd00405c63</guid>
+			<name>MyISAM</name>
+			<flags>0</flags>
+			<comments></comments>
+			<path>
+				<element id="1">Applications</element>
+				<element id="2">Generic</element>
+				<element id="3">MySQL</element>
+			</path>
+			<dataCollection>
+				<dci id="1470">
+					<guid>32e474f3-3fe0-4c18-ae52-81bc06acce83</guid>
+					<name>MySQL.MyISAM.KeyCacheFree({instance})</name>
+					<description>MySQL: MyISAM key cache free space on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1471">
+					<guid>21d9b74f-48db-4eae-8643-2f6df266eabe</guid>
+					<name>MySQL.MyISAM.KeyCacheFreePerc({instance})</name>
+					<description>MySQL: MyISAM key cache free space on {instance} (%)</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1472">
+					<guid>71d6d706-45fe-449e-816c-3ef42b248052</guid>
+					<name>MySQL.MyISAM.KeyCacheReadHitRatio({instance})</name>
+					<description>MySQL: MyISAM key cache read hit ratio on {instance} (%)</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1473">
+					<guid>3f456bb3-6f8b-4efe-911e-6bd4be7328e1</guid>
+					<name>MySQL.MyISAM.KeyCacheSize({instance})</name>
+					<description>MySQL: MyISAM key cache size on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1474">
+					<guid>0708ab6c-59b4-4ced-a3af-cf726969b563</guid>
+					<name>MySQL.MyISAM.KeyCacheUsed({instance})</name>
+					<description>MySQL: MyISAM key cache used space on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1475">
+					<guid>37bd9ffd-fd5b-4382-af23-ffef38b1f7b0</guid>
+					<name>MySQL.MyISAM.KeyCacheUsedPerc({instance})</name>
+					<description>MySQL: MyISAM key cache used space on {instance} (%)</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1476">
+					<guid>21c02ee8-5c23-4133-b56e-1af343a1311d</guid>
+					<name>MySQL.MyISAM.KeyCacheWriteHitRatio({instance})</name>
+					<description>MySQL: MyISAM key cache write hit ratio on {instance} (%)</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1477">
+					<guid>e68e89a7-7530-4384-ba13-bf49b306dd1d</guid>
+					<name>MySQL.MyISAM.KeyDiskReads({instance})</name>
+					<description>MySQL: MyISAM key cache disk reads on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1478">
+					<guid>b4315b52-b67f-4ee0-b95b-3d810edbb237</guid>
+					<name>MySQL.MyISAM.KeyDiskWrites({instance})</name>
+					<description>MySQL: MyISAM key cache disk writes on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1479">
+					<guid>5648fc99-398a-42c9-90fc-19da6cc0dc5d</guid>
+					<name>MySQL.MyISAM.KeyReadRequests({instance})</name>
+					<description>MySQL: MyISAM key cache read requests on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1480">
+					<guid>9d73c52d-0717-4898-96b9-686a148e405e</guid>
+					<name>MySQL.MyISAM.KeyWriteRequests({instance})</name>
+					<description>MySQL: MyISAM key cache write requests on {instance}</description>
+					<dataType>3</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>MySQL.Databases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+			</dataCollection>
+			<agentPolicies>
+			</agentPolicies>
+			<filter autoBind="0" autoUnbind="0"></filter>
+		</template>
+	</templates>
+	<traps>
+	</traps>
+	<rules>
+	</rules>
+	<scripts>
+	</scripts>
+	<objectTools>
+	</objectTools>
+	<dciSummaryTables>
+	</dciSummaryTables>
+	<actions>
+	</actions>
+	<webServiceDefinitions>
+	</webServiceDefinitions>
+</configuration>

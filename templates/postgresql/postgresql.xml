@@ -1,0 +1,1636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<formatVersion>4</formatVersion>
+	<server>
+		<version>3.5.136</version>
+		<buildTag>3.5-136-g37db5ea3c4</buildTag>
+		<operatingSystem>Linux 4.19.0-12-amd64</operatingSystem>
+	</server>
+	<description></description>
+	<events>
+	</events>
+	<templates>
+		<template id="177">
+			<guid>41abfde0-3159-4486-bb83-1bb4c39763e0</guid>
+			<name>PostgreSQL</name>
+			<flags>0</flags>
+			<comments></comments>
+			<path>
+				<element id="1">Applications</element>
+				<element id="2">Generic</element>
+			</path>
+			<dataCollection>
+				<dci id="1010">
+					<guid>9a430a00-73e3-4b92-9f3d-d0af415eb50a</guid>
+					<name>PostgreSQL.BGWriter.BuffersAlloc({instance})</name>
+					<description>PostgreSQL/BGWriter: allocated buffers on {instance}</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>1</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1011">
+					<guid>6c13917b-91ee-4029-9c5a-850b0a2bc98b</guid>
+					<name>PostgreSQL.BGWriter.BuffersBackend({instance})</name>
+					<description>PostgreSQL/BGWriter: diretly written buffers on {instance}</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>1</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1012">
+					<guid>d2ce2767-9737-48ef-ba9a-6144a888d7c6</guid>
+					<name>PostgreSQL.BGWriter.BuffersBackendFsync({instance})</name>
+					<description>PostgreSQL/BGWriter: fsync written buffers on {instance}</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>1</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1013">
+					<guid>1b7833b2-5bbd-4158-9e95-94750931e631</guid>
+					<name>PostgreSQL.BGWriter.BuffersCheckpoint({instance})</name>
+					<description>PostgreSQL/BGWriter: buffers written during checkpoins on {instance}</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>1</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1015">
+					<guid>14bd6201-cd84-406e-bc86-da2bf2eaba35</guid>
+					<name>PostgreSQL.BGWriter.CheckpointsReq({instance})</name>
+					<description>PostgreSQL/BGWriter: requested checkpoints on {instance}</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>1</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1016">
+					<guid>e015ef62-9ca2-4f2c-a5c5-d46f6e1e80fd</guid>
+					<name>PostgreSQL.BGWriter.CheckpointsTimed({instance})</name>
+					<description>PostgreSQL/BGWriter: scheduled checkpoints on {instance}</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>1</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1017">
+					<guid>321f026d-6e1e-4acb-8508-e824dfab50fd</guid>
+					<name>PostgreSQL.BGWriter.BuffersClean({instance})</name>
+					<description>PostgreSQL/BGWriter: buffers written by backround writer on {instance}</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>1</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1018">
+					<guid>46566431-92fc-43b3-b9a6-5aa5d536d6c4</guid>
+					<name>PostgreSQL.BGWriter.CheckpointSyncTime({instance})</name>
+					<description>PostgreSQL/BGWriter: checkpoint sync time on {instance}</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1019">
+					<guid>840e3cbf-6a2e-480f-a96c-9d9579bd445b</guid>
+					<name>PostgreSQL.BGWriter.CheckpointWriteTime({instance})</name>
+					<description>PostgreSQL/BGWriter: chechpoint write time on {instance}</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1020">
+					<guid>c1036062-835c-4205-aee3-9dc0343987a4</guid>
+					<name>PostgreSQL.BGWriter.MaxWrittenClean({instance})</name>
+					<description>PostgreSQL/BGWriter: background writer stops on {instance}</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>1</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1041">
+					<guid>c90c5e26-a0e5-4959-8219-04f4efb16a06</guid>
+					<name>PostgreSQL.GlobalConnections.AutovacuumMax({instance})</name>
+					<description>PostgreSQL/GlobalConnections: max autovacuum backends on {instance}</description>
+					<dataType>0</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1042">
+					<guid>f6a4cd3d-6401-4cd9-a788-1c3482aa9b94</guid>
+					<name>PostgreSQL.GlobalConnections.Total({instance})</name>
+					<description>PostgreSQL/GlobalConnections: number of all backends on {instance}</description>
+					<dataType>0</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1043">
+					<guid>0f09b8fd-9416-4db8-bcfc-11b8f6f8fed8</guid>
+					<name>PostgreSQL.GlobalConnections.TotalMax({instance})</name>
+					<description>PostgreSQL/GlobalConnections: max connections on {instance}</description>
+					<dataType>0</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1044">
+					<guid>9bd8fc85-7be2-48fb-9e9b-e8f27dfda615</guid>
+					<name>PostgreSQL.GlobalConnections.TotalPct({instance})</name>
+					<description>PostgreSQL/GlobalConnections: used connections (%) on {instance}</description>
+					<dataType>0</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1053">
+					<guid>0a30cdd6-0409-454f-8ce5-85cff9a3da0a</guid>
+					<name>PostgreSQL.DBConnections.Active({instance})</name>
+					<description>PostgreSQL/DBConnections: {instance-name} number of active backends</description>
+					<dataType>0</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1054">
+					<guid>3f692a06-d980-4e1a-b961-0dc02871ffd9</guid>
+					<name>PostgreSQL.DBConnections.Autovacuum({instance})</name>
+					<description>PostgreSQL/DBConnections: {instance-name} autovacuum backends</description>
+					<dataType>0</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1055">
+					<guid>9f493161-46dc-408e-a54f-31510a39fc33</guid>
+					<name>PostgreSQL.DBConnections.FastpathFunctionCall({instance})</name>
+					<description>PostgreSQL/DBConnections: {instance-name} number of fastpath function call backends</description>
+					<dataType>0</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1056">
+					<guid>f9eb4d5c-c85f-400f-b764-b3e6a5afe8a0</guid>
+					<name>PostgreSQL.DBConnections.Idle({instance})</name>
+					<description>PostgreSQL/DBConnections: {instance-name} number of idle backends</description>
+					<dataType>0</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1057">
+					<guid>56833706-5612-460d-99ea-c2f9603a45a8</guid>
+					<name>PostgreSQL.DBConnections.IdleInTransaction({instance})</name>
+					<description>PostgreSQL/DBConnections: {instance-name} number of idle in a transaction backends</description>
+					<dataType>0</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1058">
+					<guid>a7a7a038-57f4-4fc7-ae8f-9ef54c059e61</guid>
+					<name>PostgreSQL.DBConnections.IdleInTransactionAborted({instance})</name>
+					<description>PostgreSQL/DBConnections: {instance-name} number of idle in transaction (aborted) backends</description>
+					<dataType>0</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1059">
+					<guid>89266b3d-4595-4818-b08e-b86aaa43d513</guid>
+					<name>PostgreSQL.DBConnections.OldestXID({instance})</name>
+					<description>PostgreSQL/DBConnections: {instance-name} oldest XID age</description>
+					<dataType>0</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1060">
+					<guid>a4879f4d-4fcd-435f-ac47-41f3eda386c0</guid>
+					<name>PostgreSQL.DBConnections.Total({instance})</name>
+					<description>PostgreSQL/DBConnections: {instance-name} number of all backends</description>
+					<dataType>0</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1061">
+					<guid>c23198ce-a429-41b7-93ac-0ff5d30197fc</guid>
+					<name>PostgreSQL.DBConnections.Waiting({instance})</name>
+					<description>PostgreSQL/DBConnections: {instance-name} waiting backends</description>
+					<dataType>0</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1089">
+					<guid>c9eb4bff-4c20-4089-b66e-da923f7c663b</guid>
+					<name>PostgreSQL.Locks.AccessExclusive({instance})</name>
+					<description>PostgreSQL/Locks: {instance-name} AccessExclusive locks</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1090">
+					<guid>17fedd88-2034-4a0e-8448-b9a14c3e70a2</guid>
+					<name>PostgreSQL.Locks.AccessShare({instance})</name>
+					<description>PostgreSQL/Locks: {instance-name} AccessShare locks</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1091">
+					<guid>8e267052-8696-494d-899e-856a254b44cb</guid>
+					<name>PostgreSQL.Locks.Exclusive({instance})</name>
+					<description>PostgreSQL/Locks: {instance-name} Exclusive locks</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1092">
+					<guid>afdda812-e12d-4b1e-b9fc-07376ffd36a1</guid>
+					<name>PostgreSQL.Locks.RowExclusive({instance})</name>
+					<description>PostgreSQL/Locks: {instance-name} RowExclusive locks</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1093">
+					<guid>3ddf6151-0573-4f80-95f4-5d01883789db</guid>
+					<name>PostgreSQL.Locks.RowShare({instance})</name>
+					<description>PostgreSQL/Locks: {instance-name} RowShare locks</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1094">
+					<guid>403573ea-26ef-4849-85c7-a62960fdba24</guid>
+					<name>PostgreSQL.Locks.Share({instance})</name>
+					<description>PostgreSQL/Locks: {instance-name} Share locks</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1095">
+					<guid>ece4b915-dd2c-492b-a97f-5a3ee6000f91</guid>
+					<name>PostgreSQL.Locks.ShareRowExclusive({instance})</name>
+					<description>PostgreSQL/Locks: {instance-name} ShareRowExclusive locks</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1096">
+					<guid>8d16658c-210b-4b8c-bb75-2c3059d4eb47</guid>
+					<name>PostgreSQL.Locks.ShareUpdateExclusive({instance})</name>
+					<description>PostgreSQL/Locks: {instance-name} ShareUpdateExclusive locks</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1097">
+					<guid>589b569f-ddf7-4cf6-95da-6c6029ce75bc</guid>
+					<name>PostgreSQL.Locks.Total({instance})</name>
+					<description>PostgreSQL/Locks: {instance-name} all locks</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1134">
+					<guid>8d0ed69a-ad2c-49c1-ba8e-1502aa600474</guid>
+					<name>PostgreSQL.Stats.BlkWriteTime({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} writing data time</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1135">
+					<guid>ce1df645-05aa-41cc-9666-406c82fcabc5</guid>
+					<name>PostgreSQL.Stats.BlockReadTime({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} reading data time</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1136">
+					<guid>749d0949-d1f2-4312-9645-7025d22e0a4f</guid>
+					<name>PostgreSQL.Stats.BlocksRead({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} read blocks</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1137">
+					<guid>4291d084-14c5-41c1-a94b-4efd285742aa</guid>
+					<name>PostgreSQL.Stats.BloksHit({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} blocks found in cache</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1138">
+					<guid>10b8f618-a497-4283-9ac5-a1e71b42e0d3</guid>
+					<name>PostgreSQL.Stats.CacheHitRatio({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} cache hit ratio (%)</description>
+					<dataType>5</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1139">
+					<guid>bb55da15-55ed-4aa6-bce3-225cd831caa7</guid>
+					<name>PostgreSQL.Stats.ChecksumFailures({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} page checksum failures</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1140">
+					<guid>289c791c-5879-4f62-a615-2ecf33e620d6</guid>
+					<name>PostgreSQL.Stats.Conflicts({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} conflicts</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1141">
+					<guid>d8b52fc4-a59f-4c0a-b8d1-af8aba574e2c</guid>
+					<name>PostgreSQL.Stats.DatabaseSize({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} database size</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1142">
+					<guid>b0a9a85c-012a-4d39-a88f-067709d7eef1</guid>
+					<name>PostgreSQL.Stats.Deadlocks({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} number of deadlocks</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1143">
+					<guid>da3b3a46-6bac-4519-bdb7-3bb112b211e7</guid>
+					<name>PostgreSQL.Stats.NumBackends({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} number of backends</description>
+					<dataType>0</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1144">
+					<guid>a9cd4832-deb5-4b7d-9dad-d150c0d5d6f1</guid>
+					<name>PostgreSQL.Stats.RowsDeleted({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} deleted rows</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>1</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1145">
+					<guid>a2bce3f6-dcce-4fdf-b009-187bd28c7ffe</guid>
+					<name>PostgreSQL.Stats.RowsFetched({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} fetched rows</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>1</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1146">
+					<guid>04bab43d-0d88-4f66-9a52-57ad0967ff3d</guid>
+					<name>PostgreSQL.Stats.RowsInserted({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} inserted rows</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>1</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1147">
+					<guid>81606ca1-7349-4b9c-82e6-e9ba1b541be7</guid>
+					<name>PostgreSQL.Stats.RowsReturned({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} returned rows</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>1</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1148">
+					<guid>f0d34fc6-aa21-4706-b4ac-485421df5539</guid>
+					<name>PostgreSQL.Stats.RowsUpdated({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} updated rows</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>1</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1149">
+					<guid>a229236a-f9b3-4281-927f-8fdc4a5b9ad3</guid>
+					<name>PostgreSQL.Stats.TempBytes({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} temporary data size</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1150">
+					<guid>640b5c4a-0e0a-4d6b-9b8f-2c64493fe7ee</guid>
+					<name>PostgreSQL.Stats.TransactionCommits({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} commited transactions</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>1</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1151">
+					<guid>9895f5eb-b163-4e36-a0f4-62087258141e</guid>
+					<name>PostgreSQL.Stats.TempFiles({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} temporary files</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="1152">
+					<guid>edccbff5-93a4-4de6-ad14-ae65a15570f8</guid>
+					<name>PostgreSQL.Stats.TransactionRollbacks({instance})</name>
+					<description>PostgreSQL/Stats: {instance-name} rolled back transactions</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>1</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.AllDatabases</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="986">
+					<guid>334d7972-f3a5-40ed-aa5c-8783a0ecfe1e</guid>
+					<name>PostgreSQL.IsReachable({instance})</name>
+					<description>PostgreSQL: instance {instance} reachable</description>
+					<dataType>4</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="987">
+					<guid>b67fd52c-f992-4a00-ae1f-280661190444</guid>
+					<name>PostgreSQL.Archiver.ArchivedCount({instance})</name>
+					<description>PostgreSQL/Archiver: archived on {instance}</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="988">
+					<guid>8dff81f1-deb1-403d-a705-17bce336652e</guid>
+					<name>PostgreSQL.Archiver.FailedCount({instance})</name>
+					<description>PostgreSQL/Archiver: failed on {instance}</description>
+					<dataType>2</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>2</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="989">
+					<guid>c92781d3-c4f9-4a4e-9238-c0343fdad5de</guid>
+					<name>PostgreSQL.Archiver.IsArchiving({instance})</name>
+					<description>PostgreSQL/Archiver: is running on {instance}</description>
+					<dataType>4</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="990">
+					<guid>4711dc57-7682-425b-afe7-c5a579a848c0</guid>
+					<name>PostgreSQL.Archiver.LastArchivedAge({instance})</name>
+					<description>PostgreSQL/Archiver: last archived age on {instance}</description>
+					<dataType>0</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="991">
+					<guid>d3c03ef2-5561-47dd-9b24-11e2f0fde8e9</guid>
+					<name>PostgreSQL.Archiver.LastArchivedWAL({instance})</name>
+					<description>PostgreSQL/Archiver: last archived WAL on {instance}</description>
+					<dataType>4</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="992">
+					<guid>fd6f8efd-f9fb-4dc8-9c31-fe97bd74bd35</guid>
+					<name>PostgreSQL.Archiver.LastFailedAge({instance})</name>
+					<description>PostgreSQL/Archiver: last failed age on {instance}</description>
+					<dataType>0</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+				<dci id="993">
+					<guid>e4c4a7ba-bb47-40b7-9a35-42bd02969c1d</guid>
+					<name>PostgreSQL.Archiver.LastFailedWAL({instance})</name>
+					<description>PostgreSQL/Archiver: last failed WAL on {instance}</description>
+					<dataType>4</dataType>
+					<samples>0</samples>
+					<origin>1</origin>
+					<scheduleType>0</scheduleType>
+					<interval></interval>
+					<retentionType>0</retentionType>
+					<retention></retention>
+					<instance></instance>
+					<systemTag></systemTag>
+					<delta>0</delta>
+					<flags>0</flags>
+					<snmpRawValueType>0</snmpRawValueType>
+					<snmpPort>0</snmpPort>
+					<snmpVersion>127</snmpVersion>
+					<instanceDiscoveryMethod>1</instanceDiscoveryMethod>
+					<instanceRetentionTime>-1</instanceRetentionTime>
+					<comments></comments>
+					<isDisabled>false</isDisabled>
+					<transformation></transformation>
+					<perfTabSettings>&lt;config&gt;&#x0A;   &lt;enabled&gt;false&lt;/enabled&gt;&#x0A;   &lt;autoScale&gt;true&lt;/autoScale&gt;&#x0A;   &lt;logScaleEnabled&gt;false&lt;/logScaleEnabled&gt;&#x0A;   &lt;stacked&gt;false&lt;/stacked&gt;&#x0A;   &lt;showLegendAlways&gt;false&lt;/showLegendAlways&gt;&#x0A;   &lt;extendedLegend&gt;true&lt;/extendedLegend&gt;&#x0A;   &lt;minYScaleValue&gt;0.0&lt;/minYScaleValue&gt;&#x0A;   &lt;maxYScaleValue&gt;100.0&lt;/maxYScaleValue&gt;&#x0A;   &lt;timeRange&gt;1&lt;/timeRange&gt;&#x0A;   &lt;timeUnits&gt;1&lt;/timeUnits&gt;&#x0A;   &lt;type&gt;0&lt;/type&gt;&#x0A;   &lt;color&gt;49152&lt;/color&gt;&#x0A;   &lt;title&gt;&lt;/title&gt;&#x0A;   &lt;name&gt;&lt;/name&gt;&#x0A;   &lt;showThresholds&gt;false&lt;/showThresholds&gt;&#x0A;   &lt;groupName&gt;&lt;/groupName&gt;&#x0A;   &lt;order&gt;100&lt;/order&gt;&#x0A;   &lt;parentDciId&gt;0&lt;/parentDciId&gt;&#x0A;   &lt;modifyYBase&gt;false&lt;/modifyYBase&gt;&#x0A;   &lt;invertedValues&gt;false&lt;/invertedValues&gt;&#x0A;&lt;/config&gt;</perfTabSettings>
+					<instanceDiscoveryData>PostgreSQL.DBServers</instanceDiscoveryData>
+					<instanceFilter></instanceFilter>
+				</dci>
+			</dataCollection>
+			<agentPolicies>
+			</agentPolicies>
+			<filter autoBind="0" autoUnbind="0"></filter>
+		</template>
+	</templates>
+	<traps>
+	</traps>
+	<rules>
+	</rules>
+	<scripts>
+	</scripts>
+	<objectTools>
+	</objectTools>
+	<dciSummaryTables>
+	</dciSummaryTables>
+	<actions>
+	</actions>
+	<webServiceDefinitions>
+	</webServiceDefinitions>
+</configuration>
