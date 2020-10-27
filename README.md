@@ -9,6 +9,7 @@ Each subdirectory might contain own README file.
 | Name                 | Description |
 | -------------------- | ----------- |
 | [Linux](/templates/oses/linux) | Comprehensive Linux host monitoring template. |
+| [MikroTik](/templates/network-devices/mikrotik) | Pretty basic MikroTik devices monitoring template. |
 | [MySQL - generic data](/templates/mysql/generic) | Monitors generic MySQL things. |
 | [MySQL - InnoDB](/templates/mysql/innodb) | Monitors InnoDB-related parameters. |
 | [MySQL - MyISAM](/templates/mysql/myisam) | Monitors MyISAM-related parameters. |
